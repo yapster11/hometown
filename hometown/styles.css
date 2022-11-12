@@ -1,0 +1,95 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.heading-title {
+    background-image: url(https://th.bing.com/th/id/R.5198b94b0923eb40478ecc0dbb5aa86b?rik=kYq%2blN%2b8EV6pDg&pid=ImgRaw&r=0);
+    background-size: cover;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: start; 
+    font-family: 'MedievalSharp', cursive;
+}
+
+#prg-call {
+    background-color: #BEA8A7;
+    font-size: 30px;
+    margin: 100px auto 10px auto;
+}
+
+#prg-text {
+    background-color: #C09891;
+    font-size: 15px;
+    margin: 0px auto 100px auto;
+}
+
+.activities {
+    background-color: #F4DBD8;
+    padding: 10px 0px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.to-do {
+    display: flex;    
+}
+
+#to-do-park-img, #to-do-concert-img, #to-do-sport-img {
+    border-radius: 50%;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'MedievalSharp', cursive;
+}
+
+.card-guide {
+    display: flex;
+    background-color: #775144;
+    border: 1px solid #2A0800;
+    margin: 50px 100px;
+    font-family: 'MedievalSharp', cursive;
+    border-bottom: 6px solid black;
+    border-radius: 10px;
+}
+
+#quote {
+    font-style: italic;
+}
+
+#guide-img {
+    margin-top: 25px;
+}
+
+.card-guide:hover {
+    background-color: #F4DBD8;
+}
+
+#prg-link {
+    color: black;
+}
+
+#prg-link:hover {
+    color: red;
+    font-size: 50px;
+}
+
